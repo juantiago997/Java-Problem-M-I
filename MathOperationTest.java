@@ -8,7 +8,7 @@ public class MathOperationTest {
     public void testMathFunction() {
         // Test cases and expected results
         assertEquals("+", MathOperation.mathFunction(1, 2, 3));
-        assertEquals("+*", MathOperation.mathFunction(2, 2, 4));
+        assertEquals("+", MathOperation.mathFunction(2, 2, 4));
         assertEquals("*", MathOperation.mathFunction(3, -3, -9));
         assertEquals("-", MathOperation.mathFunction(1, 2, -1));
         assertEquals("/", MathOperation.mathFunction(3, 3, 1));

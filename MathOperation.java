@@ -26,7 +26,7 @@ public class MathOperation {
     public static void main(String[] args) {
         // Test cases
         System.out.println(mathFunction(1, 2, 3)); // Output: "+"
-        System.out.println(mathFunction(2, 2, 4)); // Output: "+*"
+        System.out.println(mathFunction(2, 2, 4)); // Output: "+"
         System.out.println(mathFunction(3, -3, -9)); // Output: "*"
         System.out.println(mathFunction(1, 2, -1)); // Output: "-"
         System.out.println(mathFunction(3, 3, 1)); // Output: "/"
